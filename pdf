@@ -1,0 +1,1070 @@
+<head>
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap-5.1.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-black opacity-75 mt-0 fixed-top w-100">
+    <div class="container d-flex justify-content-between">
+      <div class="dev w-100 d-flex justify-content-between">
+        <a class="navbar-brand text-white fw-bold" href="#">DevFolio</a>
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse w-50 justify-content-evenly" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-6 fw-bold">
+          <li class="nav-item me-3">
+            <a class="nav-link text-white active" aria-current="page" href="#home">HOME</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-white" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-white" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-white" href="#work">WORK</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-white" href="#blog">BLOG</a>
+          </li>
+          <li class="nav-item me-3 dropdown">
+            <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              DROP DOWN
+            </a>
+            <ul class="dropdown-menu p-1 pt-3 pb-3 pe-5" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+              <li class="dropdown123"><a class="dropdown-item" href="#"><span>Deep Drop Down</span></a>
+                <ul class="dropdown-menu2 position-absolute top-0 end-100 bg-white p-1 pt-3 pb-3 pe-5"
+                  aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Deep Drop Down 1</a></li>
+                  <li><a class="dropdown-item" href="#">Deep Drop Down 2</a></li>
+                  <li><a class="dropdown-item" href="#">Deep Drop Down 3</a></li>
+                  <li><a class="dropdown-item" href="#">Deep Drop Down 4</a></li>
+                  <li><a class="dropdown-item" href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+              <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link text-white" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- -------------------------------------------------------------header----------------------------------------------------------- -->
+  <header id="home" class="w-100% vh-100">
+    <div class="mask w-100 vh-100 bg-black opacity-50 position-absolute"></div>
+    <div class="text d-flex flex-column justify-content-center align-items-center vh-100 text-white position-relative">
+      <h1>I am Morgan Freeman</h1>
+      <h4 class=" fs-1 mt-4"><span></span></h4>
+    </div>
+  </header>
+  <!-- -------------------------------------------------------section1------------row=d-flex--------------------------------------- -->
+  <section id="about" class="container bg-white text-black mt-5 pt-5 mb-5 pb-5">
+    <div class="row">
+      <div class="sec1a col-lg-6">
+        <div class="row">
+          <div class="profile col-lg-12">
+            <div class="row">
+              <div class="img1 col-lg-4 offset-lg-1"><img class=" rounded" src="./images/testimonial-2.jpg" alt="">
+              </div>
+              <div class="col-lg-7 ps-4">
+                <p><span>Name:</span> Morgan Freeman</p>
+                <p><span>Profile:</span> full stack developer</p>
+                <p><span>Email:</span> contact@example.com</p>
+                <p><span>Phone:</span> (617) 557-0089</p>
+              </div>
+            </div>
+          </div>
+          <div class="skill col-lg-12 ms-5 mt-lg-4">
+            <!-- <div class="row"> -->
+            <p class="mb-4 fs-5 fw-normal">Skill</p>
+            <p class=" mb-2">HTML 85%</p>
+            <div class="scale scale1"></div>
+            <p class=" mb-2">CSS3 75%</p>
+            <div class="scale scale2"></div>
+            <p class=" mb-2">PHP 50%</p>
+            <div class="scale scale3"></div>
+            <p class=" mb-2">JAVASCRIPT 90%</p>
+            <div class="scale scale4"></div>
+
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+      <div class="sec1b col-lg-6 mt-lg-2">
+        <h3 class="mb-5 fs-2 position-relative">About me</h3>
+        <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet
+          et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor
+          accumsan tincidunt.</p>
+        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor
+          volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.</p>
+        <p>Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla
+          porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+
+      </div>
+    </div>
+  </section>
+  <!-- -----------------------------------------------section2-------------------------------------------- -->
+  <section id="services" class=" mt-5">
+    <div class="top text-lg-center mb-5">
+      <h3 class=" fw-bold">SERVICES</h3>
+      <p class="fs-6 position-relative">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div
+          class="box1 d-flex flex-column justify-content-center align-items-center text-lg-center col bg-white p-lg-4 m-3 mb-lg-5">
+          <div class="icons mb-lg-3">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h2 class=" fs-4 mb-lg-3">WEB DESIGN</h2>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+            provident vitae! Magni tempora perferendis eum non provident.</p>
+
+        </div>
+        <div
+          class="box1 d-flex flex-column justify-content-center align-items-center text-lg-center col bg-white p-lg-4 m-3 mb-lg-5">
+          <div class="icons mb-lg-3">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <h2 class=" fs-4 mb-lg-3">WEB DEVELOPMENT</h2>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+            provident vitae! Magni tempora perferendis eum non provident.</p>
+
+        </div>
+        <div
+          class="box1 d-flex flex-column justify-content-center align-items-center text-lg-center col bg-white p-lg-4 m-3 mb-lg-5">
+          <div class="icons mb-lg-3">
+            <i class="far fa-chart-bar"></i>
+          </div>
+          <h2 class=" fs-4 mb-lg-3">PHOTOGRAPHY</h2>
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+            provident vitae! Magni tempora perferendis eum non provident.</p>
+
+        </div>
+        <div class="row">
+          <div
+            class="box1 d-flex flex-column justify-content-center align-items-center text-lg-center col bg-white p-lg-4 m-3 mb-lg-5">
+            <div class="icons mb-lg-3">
+              <i class="fas fa-binoculars"></i>
+            </div>
+            <h2 class=" fs-4 mb-lg-3">RESPONSIVE DESIGN</h2>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat!
+              Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+
+          </div>
+          <div
+            class="box1 d-flex flex-column justify-content-center align-items-center text-lg-center col bg-white p-lg-4 m-3 mb-lg-5">
+            <div class="icons mb-lg-3">
+              <i class="fas fa-sun"></i>
+            </div>
+            <h2 class=" fs-4 mb-lg-3">GRAPHIC DESIGN</h2>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat!
+              Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+
+          </div>
+          <div
+            class="box1 d-flex flex-column justify-content-center align-items-center text-lg-center col bg-white p-lg-4 m-3 mb-lg-5">
+            <div class="icons mb-lg-3">
+              <i class="far fa-calendar-alt"></i>
+            </div>
+            <h2 class=" fs-4 mb-lg-3">MARKETING SERVICES</h2>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat!
+              Quia, provident vitae! Magni tempora perferendis eum non provident.</p>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------------------------------section2.5----------------------------------------------- -->
+  <div class="section2_5 d-flex align-items-center mb-lg-5">
+    <div class="mask2 w-100 bg-primary opacity-75 position-absolute"></div>
+    <div class="container mb-lg-5">
+      <div class="row">
+        <div class="part1 bg-transparent col-lg-3 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
+          <div class="icons2 mb-lg-3">
+            <i class="fas fa-check"></i>
+          </div>
+          <h3 class=" text-white fs-2">450</h3>
+          <p class=" text-white">WORKS COMPLETED</p>
+        </div>
+        <div class="part1 bg-transparent col-lg-3 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
+          <div class="icons2 mb-lg-3">
+            <i class="fas fa-book"></i>
+          </div>
+          <h3 class=" text-white fs-2">25</h3>
+          <p class=" text-white">YEARS OF EXPERIENCE</p>
+        </div>
+        <div class="part1 bg-transparent col-lg-3 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
+          <div class="icons2 mb-lg-3">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <h3 class=" text-white fs-2">550</h3>
+          <p class=" text-white">TOTAL CLIENTS</p>
+        </div>
+        <div class="part1 bg-transparent col-lg-3 mt-lg-5 d-flex flex-column align-items-center justify-content-center">
+          <div class="icons2 mb-lg-3">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3 class=" text-white fs-2">48</h3>
+          <p class=" text-white">AWARD WON</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------------------section3------------------------------------------------ -->
+  <section id="work">
+    <div class="top text-lg-center mb-5">
+      <h3 class=" fw-bold">PORTFOLIO</h3>
+      <p class="fs-6 position-relative">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="container">
+      <div class="row mb-lg-5">
+        <div class="img1 bg-white p-lg-0 col me-4">
+          <img class="w-100 mb-lg-4" src="./images/work-1.jpg" alt="">
+          <div class="row">
+            <div class="img1a col-8">
+              <h3 class=" fs-5 ms-3">Lorem impsum dolor</h3>
+          <p class=" ms-3"><span class="wd text-info">Web Design</span> / 18 Sep. 2018</p>
+            </div>
+            <div class=" col-4">
+              <div class="img1b float-end me-3"><i class="fas fa-plus-circle text-primary fs-1"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="img1 bg-white p-lg-0 col me-4">
+          <img class="w-100 mb-lg-4" src="./images/work-2.jpg" alt="">
+          <div class="row">
+            <div class="img1a col-8">
+              <h3 class=" fs-5 ms-3">Loreda Cuno Nere</h3>
+          <p class=" ms-3"><span class="wd text-info">Web Design</span> / 18 Sep. 2018</p>
+            </div>
+            <div class=" col-4">
+              <div class="img1b float-end me-3"><i class="fas fa-plus-circle text-primary fs-1"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="img1 bg-white p-lg-0 col ">
+          <img class="w-100 mb-lg-4" src="./images/work-3.jpg" alt="">
+          <div class="row">
+            <div class="img1a col-8">
+              <h3 class=" fs-5 ms-3">Mavrito Lana Dere</h3>
+          <p class=" ms-3"><span class="wd text-info">Web Design</span> / 18 Sep. 2018</p>
+            </div>
+            <div class=" col-4">
+              <div class="img1b float-end me-3"><i class="fas fa-plus-circle text-primary fs-1"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-lg-5">
+        <div class="img1 bg-white p-lg-0 col me-4">
+          <img class="w-100 mb-lg-4" src="./images/work-4.jpg" alt="">
+          <div class="row">
+            <div class="img1a col-8">
+              <h3 class=" fs-5 ms-3">Bindo Laro Cado</h3>
+          <p class=" ms-3"><span class="wd text-info">Web Design</span> / 18 Sep. 2018</p>
+            </div>
+            <div class=" col-4">
+              <div class="img1b float-end me-3"><i class="fas fa-plus-circle text-primary fs-1"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="img1 bg-white p-lg-0 col me-4">
+          <img class="w-100 mb-lg-4" src="./images/work-5.jpg" alt="">
+          <div class="row">
+            <div class="img1a col-8">
+              <h3 class=" fs-5 ms-3">Studio Lena Mado</h3>
+          <p class=" ms-3"><span class="wd text-info">Web Design</span> / 18 Sep. 2018</p>
+            </div>
+            <div class=" col-4">
+              <div class="img1b float-end me-3"><i class="fas fa-plus-circle text-primary fs-1"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="img1 bg-white p-lg-0 col ">
+          <img class="w-100 mb-lg-4" src="./images/work-6.jpg" alt="">
+          <div class="row">
+            <div class="img1a col-8">
+              <h3 class=" fs-5 ms-3">Studio Big Bang</h3>
+          <p class=" ms-3"><span class="wd text-info">Web Design</span> / 18 Sep. 2018</p>
+            </div>
+            <div class=" col-4">
+              <div class="img1b float-end me-3"><i class="fas fa-plus-circle text-primary fs-1"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------------------------------sectiion3_5------------------------------------ -->
+  <div class="section3_5 d-flex align-items-center w-100">
+    <div class="mask3 w-100 bg-primary opacity-75 position-absolute"></div>
+    <div class=" container">
+      <div class="content">
+        <div id="carouselExampleIndicators" class="carousel ps-md-5 slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active ps-md-5">
+             <div class="content1 w-75 h-50 text-white  bg-transparent ms-md-5 d-flex flex-column justify-content-center align-items-center">
+               <img src="./images/testimonial-2.jpg" class=" mb-md-4 text-center" alt="">
+               <h3 class=" mb-md-4 text-center">Xavi Alonso</h3>
+               <p class=" text-center px-md-4 mb-md-4">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             </div>
+            </div>
+            <div class="carousel-item">
+              <div class="content1 ps-md-5 w-75 h-50 text-white  bg-transparent ms-md-5 d-flex flex-column justify-content-center align-items-center">
+                <img src="./images/testimonial-4.jpg" class=" mb-md-4 text-center" alt="">
+                <h3 class=" mb-md-4 text-center">Marta Socrate</h3>
+                <p class=" text-center px-md-4 mb-md-4">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  <!-- ----------------------------------------------------section4------------------------------------ -->
+<section id="blog">
+  <div class="top text-lg-center mb-5">
+    <h3 class=" fw-bold">BLOG</h3>
+    <p class="fs-6 position-relative">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+  </div>
+  <div class="container">
+    <div class="row">
+      
+      <div class="img2 col bg-white p-lg-0 col me-4 mb-lg-5 mt-lg-5 position-relative">
+        <img class="w-100 mb-lg-4" src="./images/post-1.jpg" alt="">
+        <div class="cen bg-primary text-white text-center w-25 position-absolute">TRAVEL</div>
+            <h3 class="fs-5 ms-3">See more ideas about Travel</h3>
+        <p class=" ms-3">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+        <div class="img2foo pt-2 pb-lg-2 ps-3 pe-3 bg-light border-top">
+          <div class="img2foo1 d-inline-block">
+            <img src="./images/testimonial-2.jpg" alt="" class=" me-2">
+            <p class=" float-end mt-lg-1">Morgan Freeman</p>
+          </div>
+          <div class="img2foo2 float-end mt-lg-1">
+            <div class=""><i class="far fa-clock"></i>10 min</div>
+          </div>
+        </div>
+        </div>
+        <div class="img2 col bg-white p-lg-0 col me-4 mb-lg-5 mt-lg-5 position-relative">
+          <img class="w-100 mb-lg-4" src="./images/post-2.jpg" alt="">
+          <div class="cen2 bg-primary text-white text-center mt-lg-1 ps-3 pe-3 position-absolute">WEB DESIGN</div>
+              <h3 class="fs-5 ms-3">See more ideas about Travel</h3>
+          <p class=" ms-3">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+          <div class="img2foo pt-2 pb-lg-2 ps-3 pe-3 bg-light border-top">
+            <div class="img2foo1 d-inline-block">
+              <img src="./images/testimonial-2.jpg" alt="" class=" me-2">
+              <p class=" float-end mt-lg-1">Morgan Freeman</p>
+            </div>
+            <div class="img2foo2 float-end mt-lg-1">
+              <div class=""><i class="far fa-clock"></i>10 min</div>
+            </div>
+          </div>
+          </div>
+          <div class="img2 col bg-white p-lg-0 col me-4 mb-lg-5 mt-lg-5 position-relative">
+            <img class="w-100 mb-lg-4" src="./images/post-3.jpg" alt="">
+            <div class="cen2 bg-primary text-white text-center mt-lg-1 ps-3 pe-3 position-absolute">WEB DESIGN</div>
+                <h3 class="fs-5 ms-3">See more ideas about Travel</h3>
+            <p class=" ms-3">Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+            <div class="img2foo pt-2 pb-lg-2 ps-3 pe-3 bg-light border-top">
+              <div class="img2foo1 d-inline-block">
+                <img src="./images/testimonial-2.jpg" alt="" class=" me-2">
+                <p class=" float-end mt-lg-1">Morgan Freeman</p>
+              </div>
+              <div class="img2foo2 float-end mt-lg-1">
+                <div class=""><i class="far fa-clock"></i>10 min</div>
+              </div>
+            </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ------------------------------------------section5----------------------------------------------- -->
+<section id="contact" class="  d-flex justify-content-center align-items-center">
+  <div class=" mask4 w-100 bg-primary opacity-50  position-absolute"></div>
+
+  <div class=" container bg-light ">
+    <div class="row">
+      <div class=" px-5 py-5 col-md-6">
+        <h2 class=" mb-5 fs-3 position-relative">Send Message Us</h2>
+        <div>
+            <input class=" mb-md-4" type="text" required="required" placeholder=" Your Name" name="name"
+              data-error="Firstname is required.">
+            <input class=" mb-md-4" type="text" required="required" placeholder="Your Email" name="name"
+              data-error="Firstname is required.">
+            <input class=" mb-md-4" type="text" required="required" placeholder="Phone Number" name="name"
+              data-error="Firstname is required.">
+              <textarea name="" placeholder="Your Message" id="" cols="61" rows="4"></textarea>
+              <a href=""><button>Send Message</button></a>
+        </div>
+      </div>
+      <div class=" px-5 py-5 col-md-6">
+        <h2 class=" mb-5 fs-3 position-relative">Get in Touch</h2>
+        <div>
+          <p class=" mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+          <ul class=" ms-0 fa-ul">
+            <li> <i class=" me-3 mb-3 fas fa-map-marker-alt"></i> 329 WASHINGTON ST BOSTON, MA 02108</li>
+            <li> <i class=" me-3 mb-3 fas fa-mobile-alt"></i> (617) 557-0089</li>
+            <li> <i class=" me-3 far fa-envelope"></i> contact@example.com</li>
+          </ul>
+          <div class=" d-flex">
+            <div><i class=" fs-1 me-3 fab fa-facebook-square"></i></div>
+            <div><i class=" fs-1 me-3 fab fa-instagram-square"></i></div>
+            <div><i class=" fs-1 me-3 fab fa-twitter-square"></i></div>
+            <div><i class=" fs-1 me-3 fab fa-linkedin"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ---------------------------------------------footer----------------------------------- -->
+<footer class="foo text-white text-center bg-primary pb-md-2 pt-md-4">
+  <div class=" container">
+    <div class="foo1"><p>© Copyright  <span class=" fw-bolder"> DevFolio</span>. All Rights Reserved</p></div>
+    <p class="foo2 mt-md-0">Designed by BootstrapMade</p>
+  </div>
+</footer>
+<!-- -----------------------------------------------------up--------------------- -->
+<div class="up d-flex justify-content-center align-items-center position-fixed rounded-circle"><a href="#home">
+  <i class=" text-white fas fa-arrow-up"></i></a>
+</div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+<!-- ========================================css============================================== -->
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+    scroll-behavior: smooth;
+}
+/* ------------------------------------------nav----------------------------------- */
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-image: url(./images/intro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    /* z-index: 0; */
+}
+header .text h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+#home h4 span::after{
+    content: "";
+    animation: typing 13s linear infinite;
+}
+@keyframes typing{
+    1%{
+        content: "|";
+    }
+    2%{
+        content: "F|";
+    }
+    3%{
+        content: "Fr|";
+    }
+    4%{
+        content: "Fre|";
+    }
+    5%{
+        content: "Free|";
+    }
+    6%{
+        content: "Freel|";
+    }
+    7%{
+        content: "Freela|";
+    }
+    8%{
+        content: "Freelan|";
+    }
+    9%{
+        content: "Freelanc|";
+    }
+    10%{
+        content: "Freelance|";
+    }
+    11%{
+        content: "Freelancer|";
+    }
+    15%{
+        content: "Freelance|";
+    }
+    16%{
+        content: "Freelanc|";
+    }
+    17%{
+        content: "Freelan|";
+    }
+    18%{
+        content: "Freela|";
+    }
+    19%{
+        content: "Freel|";
+    }
+    20%{
+        content: "Free|";
+    }
+    21%{
+        content: "Fre|";
+    }
+    22%{
+        content: "Fr|";
+    }
+    23%{
+        content: "F|";
+    }
+    24%{
+        content: "|";
+    }
+    25%{
+        content: "P|";
+    }
+    26%{
+        content: "Ph|";
+    }
+    27%{
+        content: "Pho|";
+    }
+    28%{
+        content: "Phot|";
+    }
+    29%{
+        content: "Photo|";
+    }
+    30%{
+        content: "Photog|";
+    }
+    31%{
+        content: "Photogr|";
+    }
+    32%{
+        content: "Photogra|";
+    }
+    33%{
+        content: "Photograp|";
+    }
+    34%{
+        content: "Photograph|";
+    }
+    35%{
+        content: "Photographe|";
+    }
+    36%{
+        content: "Photographer|";
+    }
+    40%{
+        content: "Photographe|";
+    }
+    41%{
+        content: "Photograph|";
+    }
+    42%{
+        content: "Photograp|";
+    }
+    43%{
+        content: "Photogra|";
+    }
+    44%{
+        content: "Photogr|";
+    }
+    45%{
+        content: "Photog|";
+    }
+    46%{
+        content: "Photo|";
+    }
+    47%{
+        content: "Phot|";
+    }
+    48%{
+        content: "Pho|";
+    }
+    49%{
+        content: "Ph|";
+    }
+    50%{
+        content: "P|";
+    }
+    51%{
+        content: "|";
+    }
+    52%{
+        content: "D|";
+    }
+    53%{
+        content: "De|";
+    }
+    54%{
+        content: "Des|";
+    }
+    55%{
+        content: "Desi|";
+    }
+    56%{
+        content: "Desig|";
+    }
+    57%{
+        content: "Design|";
+    }
+    58%{
+        content: "Designe|";
+    }
+    59%{
+        content: "Designer|";
+    }
+    63%{
+        content: "Designe|";
+    }
+    64%{
+        content: "Design|";
+    }
+    65%{
+        content: "Desig|";
+    }
+    66%{
+        content: "Desi|";
+    }
+    67%{
+        content: "Des|";
+    }
+    68%{
+        content: "De|";
+    }
+    69%{
+        content: "Dev|";
+    }
+    70%{
+        content: "Deve|";
+    }
+    71%{
+        content: "Devel|";
+    }
+    72%{
+        content: "Develo|";
+    }
+    73%{
+        content: "Develop|";
+    }
+    74%{
+        content: "Develope|";
+    }
+    75%{
+        content: "Developer|";
+    }
+    79%{
+        content: "Developer|";
+    }
+    80%{
+        content: "Develope|";
+    }
+    81%{
+        content: "Develop|";
+    }
+    82%{
+        content: "Develo|";
+    }
+    83%{
+        content: "Devel|";
+    }
+    84%{
+        content: "Deve|";
+    }
+    85%{
+        content: "Dev|";
+    }
+    86%{
+        content: "De|";
+    }
+    87%{
+        content: "D|";
+    }
+    88%{
+        content: "|";
+    }
+}
+
+
+nav{
+    z-index: 1;
+}
+nav ul li{
+    position: relative;
+}
+nav ul li::after{
+    position: absolute;
+    content: "";
+    left: 10px;
+    width: 0rem;
+    height: 2px;
+    opacity: 0;
+    background-color: white;
+    transition: width 1s;
+}
+nav ul li:hover:after{
+    width: 3rem;
+    opacity: 1;
+}
+.dropdown-item{
+    margin-bottom: 0.5rem;
+}
+.dropdown-item:hover{
+    background-color: transparent;
+    color: blue;
+}
+.nav-link{
+    font-size: 1rem;
+}
+.navbar-brand{
+    font-size: 28px;
+}
+.dropdown-menu2{
+    list-style: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.dropdown123:hover .dropdown-menu2{
+    opacity: 1;
+}
+/* @media screen and (max-width:992) and (min-width:768){
+    .dev{
+        width: 100% !important;
+    }
+} */
+/* ---------------------------------section1----------------------------------- */
+#about{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.profile p span{
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+
+.scale{
+    width: 90%;
+    height: 0.75rem !important;
+    margin-bottom: 1.3rem!important;
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    /* border-radius: .25rem; */
+}
+.scale1{
+    background-image: linear-gradient(90deg, #0078ff 85%, #e9ecef 85%, #e9ecef 100%);
+}
+.scale2{
+    background-image: linear-gradient(90deg, #0078ff 75%, #e9ecef 75%, #e9ecef 100%);
+}
+.scale3{
+    background-image: linear-gradient(90deg, #0078ff 50%, #e9ecef 50%, #e9ecef 100%);
+}
+.scale4{
+    background-image: linear-gradient(90deg, #0078ff 90%, #e9ecef 90%, #e9ecef 100%);
+}
+.sec1b p{
+    width: 90%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.sec1b h3::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+    left: 0;
+}
+/* ----------------------------------------------section2--------------------------- */
+.top h3{
+    font-size: 3rem;
+}
+.top p::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 200px;
+    bottom: -18px;
+    left: 650;
+}
+#services .box1{
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.box1 p{
+    color: #4e4e4e;
+}
+#services .box1 .icons{
+    height: 120px;
+    width: 120px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    border: 10px solid #0078ff;
+    transition: 0.5s;
+}
+#services .box1:hover > .icons{
+    background-color: #0078ff;
+    border-color: #cde1f8;
+    color: white;
+}
+#services i{
+    font-size: 2.5rem;
+    margin: 1.8rem;
+}
+/* .fa-tasks{
+    font-size: 3rem;
+    margin: 1.5rem;
+} */
+/* --------------------------------------------section2.5----------------------------- */
+.section2_5{
+    background-image: url(./images/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+}
+.mask2{
+    height: 60vh;
+}
+.section2_5 .part1{
+    z-index: 1;
+}
+.section2_5 .part1 .icons2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 10px solid #cde1f8;
+}
+.section2_5 .icons2 i{
+    font-size: 2rem;
+    color: white;
+}
+/* --------------------------------------section3--------------------------------- */
+/* #work .top2 h3{
+    font-size: 3rem;
+}
+#work .top2 p::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 45px;
+    bottom: -18px;
+    left: 650;
+} */
+.img1 img{
+    transition: .5s;
+}
+.img1 img:hover{
+    transform: scale(1.1);
+}
+.img1 p{
+    font-size: 0.8rem;
+}
+.img1{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+/* ---------------------------------------------section3_5------------------------------------------- */
+.section3_5{
+    background-image: url(./images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    margin-bottom: 3rem;
+}
+.mask3{
+    height: 90vh;
+    z-index: 5;
+}
+.section3_5 .carousel-indicators button{
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.section3_5 .container .content{
+    position: relative;
+    z-index: 5;
+}
+.section3_5 .container .content1{
+    margin-left: 4.8rem !important;
+    margin-bottom: 3rem !important;
+    margin-top: 3rem !important;
+}
+.section3_5 .container .content1 img{
+    width: 140px;
+    border-radius: 50%;
+}
+.section3_5 .container .content1 h3{
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+}
+.section3_5 .container .content1 p{
+    font-size: 1.25rem !important;
+    font-weight: 300 !important;
+}
+/* --------------------------------------------------------------------section4-------------------------- */
+#blog .img2 .cen{
+    bottom: 194;
+    left: 130;
+    border-radius: 0.25rem;
+}
+#blog .img2 .cen2{
+    bottom: 194;
+    left: 120;
+    border-radius: 0.25rem;
+}
+.img2 .img2foo img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.img2{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.img2 h3{
+    transition: 0.5s color;
+}
+.img2 h3:hover{
+    color: #0d6efd;
+}
+.img2foo1 p{
+    transition: 0.5s color;
+}
+.img2foo1 p:hover{
+    color: #0d6efd;
+}
+/* ------------------------------------------section5----------------------------------- */
+#contact{
+    background-image: url(./images/overlay-bg.jpg);
+    width: 100%;
+    height: 110%;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+.mask4{
+    height: 110vh;
+    /* box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%); */
+}
+#contact .container{
+    z-index: 0;
+    height: 80%;
+}
+#contact h2:after{
+    content: "";
+    width: 110px;
+    height: 3px;
+    background-color: rgb(0, 120, 225);
+    position: absolute;
+    bottom: -10;
+    left: 0;
+}
+#contact input{
+    width: 110%;
+    height: 40px;
+    border: rgba(37, 43, 51, .3) solid 1px;
+    border-radius: 5px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    padding-left: 20px;
+}
+#contact textarea{   
+    font-size: 1rem;
+    padding-left: 15px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    border: rgba(37, 43, 51, .3) solid 1px;
+    border-radius: 5px;
+}
+#contact button{
+    background: #0078ff;
+    color: white;
+    border: 0;
+    border-radius: 50rem;
+    border: 4px transparent solid;
+    margin-top: 30px;
+    margin-bottom: 0rem;
+    font-size: 1.2rem;
+    transition: 0.4s ;
+    margin-left: 50%;
+    transform: translateX(-60%);
+    padding: 10px 20px;
+}   
+#contact button:hover{
+    background: hsl(212, 100%, 55%);
+    border: 4px rgb(156, 197, 240) solid;
+}
+#contact p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #4e4e4e;
+}
+#contact ul{
+    font-weight: 300;
+    color: #3d3d3d;
+}
+/* -------------------------------------up-button----------------------------------------- */
+.up {
+    background: #0078ff;
+    height: 40px;
+    width: 40px;
+    font-size: 1rem;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.up:hover{
+    background-color: #3f94f5;
+}
